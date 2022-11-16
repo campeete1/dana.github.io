@@ -16,6 +16,7 @@
     display: flex;
     align-self: center;
     align-items: center;
+    margin: 25px;
 }
 .logo{
     width: 75px;
@@ -32,6 +33,7 @@ nav{
     flex: 1;
     text-align: right;
     align-items: center;
+    display: none;
 }
 nav ul li {
     list-style: none;
@@ -78,6 +80,7 @@ button:hover{
     align-items: center;
     margin: 50px 0;
     gap: 75px;
+    padding: 0;
 }
 .col-1{
     flex-basis: 50%;
@@ -111,6 +114,54 @@ font-weight: 500;
     border-radius: 25px;
 
 }
+#cam-section-3{
+    background-color: #e5d5c3;
+    padding: 10px;
+    display: flex;
+    gap: 25px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.cam-img-box-3 {
+    order: 1;
+}
+#cam-img-box-3 {
+    background: center;
+   }
+   
+.cam-section-text-3 {
+    order: 2;
+}
+.cam-img-3 {
+    max-width: 300pt;
+    max-height: 300pt;
+    filter: drop-shadow(0 0 0.75rem);
+    border-radius: 25px;
+    color: black;
+}
+.cam-header-3 {
+    background: center;
+    color: black;
+}
+
+.cam-subtext-3 {
+    background: center;
+    color: black;
+}
+
+#cam-section-text-3 {
+    background: center;
+}
+#cam-section-3 {
+    padding: 5%;
+}
+p {
+    font-style: italic;
+}
+  
+  
 
 @media only screen and (max-width:750px){
     nav{
