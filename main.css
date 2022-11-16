@@ -176,7 +176,7 @@ p {
   
   
 
-@media only screen and (max-width:750px){
+@media only screen and (max-width:1025px){
     nav{
         text-align: center;
     }
@@ -210,14 +210,11 @@ p {
         color:#c619ff;
         background-color: white;
     }
-    .menu-icon{
-        display: block;
-    }
     #menuList{
         overflow: hidden;
         transition:0.5s;
     }
-    .row{
+    .row, .sections{
         flex-direction:column-reverse ;
         margin: 75px 0;
         gap: 25px;
@@ -228,4 +225,20 @@ p {
     .logo{
         margin-top: 0;
     }
+    .cam-header-3 {
+    text-align: center;
+    }
+    .cam-subtext-3 {
+    text-align: center;
+    }
+    .cam-img-3 {
+        max-width: 200pt;
+        max-height: 200pt;
+        margin-top: 25px;
+    }
+    .row {
+        text-align: center;
+    }
+       
+       
 }
